@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella Bedendo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="main-nav">
+        <div class="logo">Isabella Bedendo</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#servizi" class="nav-link">Servizi</a></li>
+            <li><a href="#chi-sono" class="nav-link">Chi Sono</a></li>
+            <li><a href="#contatti" class="nav-link">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <h1>Equilibrio e Armonia con Isabella Bedendo</h1>
+            <p>Un viaggio verso il benessere olistico, naturalmente.</p>
+            <a href="#contatti" class="btn">Scopri il tuo percorso</a>
+        </div>
+    </section>
+
+    <!-- Sezione Chi Sono -->
+    <section id="chi-sono" class="chi-sono">
+        <h2 class="fade-in">La Mia Storia</h2>
+        <div class="chi-sono-content">
+            <div class="image-container fade-in">
+                <img src="logo.png" alt="Logo Isabella Bedendo" class="logo morphingGlow">
+                <img src="isabella-bedendo.jpg" alt="Isabella Bedendo" class="profile-img morphingGlow">
+            </div>
+            <p class="fade-in">Sono Isabella Bedendo, naturopata Iridologa certificata con oltre 10 anni di esperienza. Credo nel potere della natura per ristabilire l’equilibrio del corpo e della mente. Il mio approccio unisce scienza, tradizione e ascolto profondo per creare percorsi di benessere su misura. Aggiungo altro testo per verificare lo spazio: sono appassionata di erboristeria, riflessologia e tecniche olistiche, ho studiato per anni per perfezionare il mio metodo, lavoro con ogni cliente per individuare soluzioni personalizzate che rispettino il loro equilibrio naturale, e offro consulenze dettagliate basate su analisi approfondite come l’iridologia e la valutazione del benessere olistico.</p>
+        </div>
+    </section>
+
+    <!-- Sezione Servizi -->
+    <section id="servizi" class="servizi">
+        <h2 class="fade-in">Servizi per Te</h2>
+        <div class="servizi-grid">
+            <div class="servizio fade-in">
+                <img src="iride.jpg" alt="Iride per Consulenza Personalizzata">
+                <h3><i class="fas fa-handshake"></i> Consulenza su Misura</h3>
+                <p>Un piano personalizzato per ritrovare energia e serenità, con analisi approfondite come l’iridologia.</p>
+                <a href="#contatti" class="btn-small">Inizia Ora</a>
+            </div>
+            <div class="servizio fade-in">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Rimedi Naturali">
+                <h3><i class="fas fa-leaf"></i> Rimedi Naturali</h3>
+                <p>Erbe e soluzioni botaniche per la tua salute quotidiana.</p>
+                <a href="#contatti" class="btn-small">Scopri di Più</a>
+            </div>
+            <div class="servizio fade-in">
+                <img src="riflessologia-plantare.jpg" alt="Riflessologia Plantare">
+                <h3><i class="fas fa-spa"></i> Pratiche Olistiche</h3>
+                <p>Tecniche moderne e antiche per un benessere totale, inclusa la riflessologia plantare.</p>
+                <a href="#contatti" class="btn-small">Prenota</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Contatti -->
+    <section id="contatti" class="contatti">
+        <h2 class="fade-in">Parliamo del Tuo Benessere</h2>
+        <p class="fade-in">Compila il form per una consulenza o per qualsiasi domanda.</p>
+        <form action="https://formsubmit.co/bedendoisa@gmail.com" method="POST" class="fade-in">
+            <input type="hidden" name="_next" value="https://tuositoweb.com/#contatti">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="hidden" name="_subject" value="Nuovo Messaggio dal Sito di Isabella Bedendo">
+            <input type="text" name="nome" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <textarea name="messaggio" placeholder="Come posso aiutarti?" required></textarea>
+            <button type="submit" class="btn glow">Invia Messaggio</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content fade-in">
+            <h3>Isabella Bedendo - Naturopatia Olistica</h3>
+            <p>Per un benessere naturale e su misura.</p>
+            <div class="footer-contacts">
+                <p><i class="fas fa-phone-alt"></i> +39 320 443 7878</p>
+                <p><i class="fas fa-envelope"></i> bedendoisa@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Como, Italia</p>
+            </div>
+            <div class="social-icons">
+                <a href="#" class="rotate"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="rotate"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="rotate"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p class="footer-copyright">© 2025 Isabella Bedendo - Naturopatia Iridologa. Tutti i diritti riservati.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+                hamburger.classList.toggle('open');
+            });
+
+            const fadeElements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            fadeElements.forEach(element => observer.observe(element));
+        });
+    </script>
+</body>
+</html>
