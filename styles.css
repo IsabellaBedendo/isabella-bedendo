@@ -101,14 +101,14 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('eroe-immagine.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
     position: relative;
-    filter: brightness(1.2); /* Aumenta la luminosità dell'immagine */
+    filter: brightness(1.2);
 }
 
 .hero::before {
@@ -118,7 +118,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2); /* Overlay più chiaro */
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .hero-particles {
@@ -301,6 +301,13 @@ body {
 .servizio p {
     font-size: 1rem;
     margin-bottom: 1rem;
+}
+
+/* Sezione Naturopatia Como */
+#naturopatia-como {
+    padding: 4rem 2rem;
+    background: #FAFAF5;
+    text-align: center;
 }
 
 /* Contatti */
